@@ -46,7 +46,7 @@ public class MusicUtils
 
 	public static double[] harmonic(int pitch, double duration)
 	{
-		return average(average(note(pitch + 12, duration), note(pitch - 12, duration)), note(pitch, duration));
+		return avrage(avrage(note(pitch + 12, duration), note(pitch - 12, duration)), note(pitch, duration));
 	}
 
 }

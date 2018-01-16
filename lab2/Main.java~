@@ -8,7 +8,7 @@ public class Main
 	{
 		SoundDevice device = new SoundDevice();
 		Song song = new Song(10);
-		Scanner s = new Scanner(System.in).useLocale(Locale.US);
+		Scanner s = new Scanner(System.in);
 		while (true)
 		{
 			try 
